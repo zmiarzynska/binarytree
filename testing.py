@@ -64,9 +64,6 @@ class TestTreeCalculations(unittest.TestCase):
         self.assertEqual(firsttree.get_sum(root.right.right.right.right), sum(firsttree.numbers))
 
     def test_sum_firsttree_root_right_right_right_right(self):
-        firsttree.add_node_to_list(root.right.right.right.right)
-        array = firsttree.numbers
-        self.assertEqual(firsttree.get_sum(root.right.right.right.right), sum(array))
         self.assertEqual(firsttree.get_sum(root.right.right.right.right), 5)
 
     def test_sum_secondtree(self):
